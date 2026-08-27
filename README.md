@@ -6,7 +6,6 @@ A Python internet speed test app with both a command-line mode and a Kivy deskto
 
 - `main.py`: command-line speed test
 - `internet.py`: desktop GUI speed test
-- `speed_test_app.py`: alternate desktop GUI entrypoint
 - `speed_core.py`: shared speed-test logic
 
 ## Setup
@@ -38,10 +37,4 @@ Desktop window speed test:
 
 ```powershell
 python internet.py
-```
-
-Alternative desktop window entrypoint:
-
-```powershell
-python speed_test_app.py
 ```
