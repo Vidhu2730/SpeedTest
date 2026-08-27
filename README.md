@@ -10,6 +10,8 @@ A Python internet speed test app with both a command-line mode and a Kivy deskto
 
 ## Setup
 
+The `.venv` folder is not included in this repository. Create it locally, then install the dependencies from `requirements.txt`:
+
 ```powershell
 py -3 -m venv .venv
 .\.venv\Scripts\Activate.ps1
