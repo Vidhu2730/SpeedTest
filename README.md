@@ -1,6 +1,13 @@
 # Speed Net
 
-A Python internet speed test app with download, upload, and ping metrics.
+A Python internet speed test app with both a command-line mode and a Kivy desktop GUI. It checks download speed, upload speed, and ping metrics.
+
+## What it includes
+
+- `main.py`: command-line speed test
+- `internet.py`: desktop GUI speed test
+- `speed_test_app.py`: alternate desktop GUI entrypoint
+- `speed_core.py`: shared speed-test logic
 
 ## Setup
 
